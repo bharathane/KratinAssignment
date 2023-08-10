@@ -1,0 +1,123 @@
+.profileContainer {
+  background-color: #f5f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.personProfile {
+  height: 350px;
+  width: 100%;
+  border-radius: 8px;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+.profileImageContainer {
+  background-color: #f5f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 480px;
+}
+
+.AboutContainer {
+  background-color: #f5f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutName {
+  display: flex;
+  align-items: center;
+}
+
+.headingAbout {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.AboutDetailsContainer {
+  padding: 20px;
+}
+
+.textContainerAbout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.HeadingAbout {
+  font-size: 20px;
+  font-family: "roboto";
+  width: 46%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.AboutHeadingDetail {
+  font-size: 15px;
+  font-family: "roboto";
+  font-weight: 500;
+  width: 49%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.bmiContainer {
+  width: 70%;
+  border: 1px solid #080808;
+  height: 35px;
+  text-align: center;
+}
+
+.AboutAndReportContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .Container {
+    display: flex;
+    flex-direction: row;
+  }
+  .AboutDetailsContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .AboutContainer {
+    width: 90%;
+  }
+
+  .textContainerAbout {
+    width: 50%;
+  }
+
+  .HeadingAbout {
+    width: 25%;
+  }
+  .AboutHeadingDetail {
+    width: 30%;
+  }
+  .profileImageContainer {
+    width: 40%;
+    margin-right: 15px;
+  }
+}

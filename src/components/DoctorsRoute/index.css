@@ -1,0 +1,114 @@
+.drCon {
+  padding: 20px;
+  margin-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileImg {
+  height: 280px;
+  width: 280px;
+}
+
+.DoctorDetailsContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #f5f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-family: "roboto";
+  font-size: 24px;
+  font-weight: 700;
+  color: #8e6fd6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.study {
+  font-family: "roboto";
+  font-size: 24px;
+  font-weight: 400;
+  color: #080808;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.para {
+  font-family: "roboto";
+  font-size: 24px;
+  font-weight: 500;
+  color: #080808;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.designation {
+  font-family: "roboto";
+  font-size: 22px;
+  font-weight: 600;
+  color: #080808;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.awardCon {
+  display: flex;
+  align-items: center;
+  color: #8e6fd6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.award {
+  font-family: "roboto";
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.outlineBtn {
+  background-color: transparent;
+  border: 2px solid #8e6fd6;
+  height: 36px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.buttonBtn {
+  background-color: #8e6fd6;
+  border: none;
+  height: 36px;
+  border-radius: 8px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .drCon {
+    width: 80%;
+    align-self: center;
+  }
+  .DoctorDetailsContainer {
+    flex-direction: row;
+  }
+
+  .detailsContainer {
+    margin-left: 15px;
+  }
+}

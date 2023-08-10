@@ -1,0 +1,48 @@
+.active {
+  text-decoration: line-through;
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+.activeOff {
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.listItemContainer {
+  margin-bottom: 10px;
+}
+
+.ContainerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerText {
+  width: 100%;
+  border-left: 6px solid #096f92;
+  background-color: #e6f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.checkBox-input {
+  height: 20px;
+  width: 20px;
+}
+
+.time {
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}

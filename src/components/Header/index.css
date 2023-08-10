@@ -1,0 +1,35 @@
+.nav-header {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d4733f;
+  position: fixed;
+  top: 0;
+}
+.nav-menu-home {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.App-title {
+  font-family: "Roboto";
+  color: #000000;
+  font-size: 26px;
+}
+
+.profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
